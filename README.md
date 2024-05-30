@@ -19,9 +19,9 @@ ComTools is a pipeline that focued on analysis about comparative genomics. In th
 ## Denpendencies
 Environment: Linux, CentOS 6
 
-Perl, version >= 5.32.1
+***Perl, version >= 5.32.1***
 
-MafFilter, version = 1.3.1 (https://jydu.github.io/maffilter/)
+***MafFilter, version = 1.3.1 (https://jydu.github.io/maffilter/)***
 
 Please make sure they are in $PATH of your computer
 
@@ -41,7 +41,7 @@ Parameters, for example, "--refGenome $YourRefGenome --chunkSize 500000  --dupeM
 
 First we could filter blocks with all species and > 150bp. We provide FilterMaf.pl for this function. Just do
 
-    perl FilterMaf.pl input_MAF output_MAF speciesList 150
+        perl FilterMaf.pl input_MAF output_MAF speciesList 150
 
 you could modifiy 150 to other values to get differet results. 
 
@@ -51,16 +51,16 @@ you could modifiy 150 to other values to get differet results.
 
 If you have annotation of the reference species, you could extract them using ExtractCDS.pl. Just type
 
-    perl ExtractCDS.pl input_maf output_maf reference_name  gff
+        perl ExtractCDS.pl input_maf output_maf reference_name  gff
 
 ## Convert MAF into VCF format
 
-    perl GenerateVcf.pl input_maf output_vcf speciesList
-    
+        perl GenerateVcf.pl input_maf output_vcf speciesList
+        
 ## Calculate Convergent Sites
 Today your should modify the subpoplution in scripts and do
 
-    perl ConvergentSelect.pl input_vcf
+        perl ConvergentSelect.pl input_vcf
 
 ## Generate Count Tree
 This functoin is used to generate tree for each blocks. And the results could be merged in to species tree by ASTRAL (https://github.com/smirarab/ASTRAL).
