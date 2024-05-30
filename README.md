@@ -1,4 +1,4 @@
-# ComTools
+# ComTools v0.1beta
 
 ## Background
 
