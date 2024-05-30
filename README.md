@@ -83,6 +83,9 @@ This function is under writing.
 ## Convert MAF into PLINK format
 This function is under writing.
 
+## Affiliations
+State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems, College of Ecology, Lanzhou University, Lanzhou 730000, China
+
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published now.
 
