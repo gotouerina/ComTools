@@ -17,10 +17,13 @@ ComTools is a pipeline that focued on analysis about comparative genomics. In th
 5. Estimate convegent sites thourgh alignment results.
 
 ## Denpendencies
+Environment: Linux, CentOS 6
 
 Perl, version >= 5.32.1
 
 MafFilter, version = 1.3.1 (https://jydu.github.io/maffilter/)
+
+Please make sure they are in $PATH of your computer
 
 ##  Preparing Input Files
 
@@ -36,8 +39,13 @@ Parameters, for example, "--refGenome $YourRefGenome --chunkSize 500000  --dupeM
 
 ## Filter the MAF format file
 
+First we could filter blocks with all species and > 150bp. We provide FilterMaf.pl for this function. Just do
 
+    perl FilterMaf.pl input_MAF output_MAF speciesList 150
 
+you could modifiy 150 to other values to get differet results.
+
+## Extract CDS from MAF format file
 
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools), there is no paper published in this stage, but are prepared to publish on Bioaxiv in future.
