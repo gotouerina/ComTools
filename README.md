@@ -43,7 +43,9 @@ First we could filter blocks with all species and > 150bp. We provide FilterMaf.
 
     perl FilterMaf.pl input_MAF output_MAF speciesList 150
 
-you could modifiy 150 to other values to get differet results.
+you could modifiy 150 to other values to get differet results. 
+
+***Notice that our scripts all consider the first line in speciesList as the reference!***
 
 ## Extract CDS from MAF format file
 
