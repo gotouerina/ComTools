@@ -69,7 +69,13 @@ Generally Type:
 
         perl GenerateCountTree.pl input_maf OurgroupName output_tree
 
-The output_tree contains x rows (x is the blocks of input MAF file). 
+The output_tree contains x rows (x is the blocks of input MAF file). 3
+
+Then Type : 
+
+        java -jar /path/to/astral.5.7.8.jar -i output_tree
+
+You can get the final species tree.
 
 ## Convert MAF into MSMC format
 This function is under writing.
