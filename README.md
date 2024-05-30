@@ -47,5 +47,13 @@ you could modifiy 150 to other values to get differet results.
 
 ## Extract CDS from MAF format file
 
+If you have annotation of the reference species, you could extract them using ExtractCDS.pl. Just type
+
+    perl ExtractCDS.pl input_maf output_maf reference_name  gff
+
+## Convert MAF into VCF format
+
+## Calculate Convergent Sites
+
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools), there is no paper published in this stage, but are prepared to publish on Bioaxiv in future.
