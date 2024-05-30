@@ -55,7 +55,18 @@ If you have annotation of the reference species, you could extract them using Ex
 
 ## Convert MAF into VCF format
 
+    perl GenerateVcf.pl input_maf output_vcf speciesList
+    
+## Convert MAF into MSMC format
+
+## Convert MAF into PLINK format
+
 ## Calculate Convergent Sites
+Today your should modify the subpoplution in scripts and do
+
+    perl ConvergentSelect.pl input_vcf
+
+## Generate Count Tree
 
 ## Cite
-Cite: Please cite website (https://github.com/gotouerina/ComTools), there is no paper published in this stage, but are prepared to publish on Bioaxiv in future.
+Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published in this stage.
