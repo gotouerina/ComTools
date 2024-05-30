@@ -67,7 +67,14 @@ Today your should modify the subpoplution in scripts and do
     perl ConvergentSelect.pl input_vcf
 
 ## Generate Count Tree
-This function is under writing.
+This functoin is used to generate tree for each blocks. And the results could be merged in to species tree by ASTRAL (https://github.com/smirarab/ASTRAL).
+
+Generally Type:
+
+        perl GenerateCountTree.pl input_maf OurgroupName output_tree
+
+The output_tree contains x rows (x is the blocks of input MAF file). 
+
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published now.
 
