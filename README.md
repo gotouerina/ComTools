@@ -16,6 +16,26 @@ ComTools is a pipeline that focued on analysis about comparative genomics. In th
 
 5. Estimate convegent sites thourgh alignment results.
 
+## Denpendencies
+
+Perl, version > 5.32.1
+
+##  Preparing Input Files
+
+First we need a MAF format alignment file. you can generate it using lastz, lastal or cactus (cactus recommanded).
+
+For lastal, you could read my previous published pipeline (https://github.com/gotouerina/Comparative-genomics-script/wiki/03.LASTAL-Alignment-Pipeline). 
+
+For lastz, please check the manual.
+
+For cactus, you should follow the instruction of official manual, and extract Maf format file from HAL format file using cactus-hal2maf 
+
+Parameters, for example, "--refGenome $YourRefGenome --chunkSize 500000  --dupeMode single --noAncestors"
+
+## Filter the MAF format file
+
+
+
 
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools), there is no paper published in this stage, but are prepared to publish on Bioaxiv in future.
