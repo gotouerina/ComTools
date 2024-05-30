@@ -69,7 +69,7 @@ Today your should modify the subpoplution in scripts and do
 ## Generate Count Tree
 
 ## Cite
-Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published in this stage.
+Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published now.
 
 ## Contruct
 You could write your problems in github issue page, or you could e-mail me at kogoorimasaki@outlook.com
