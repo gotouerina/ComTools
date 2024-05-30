@@ -8,11 +8,11 @@ ComTools is a pipeline that focued on analysis about comparative genomics. In th
 
 1. Merging blocks, operating sequecing and filter.
 
-2. Extract or remove assigned features from Maf format file (CDS, gene, mRNA or others).
+2. Extract or remove assigned features(eg. CDS) from Maf format file.
 
 3. Split alignment in small windows.
 
-4. Construct phylogenetic tree using different model.
+4. Construct phylogenetic tree.
 
 5. Estimate convegent sites thourgh alignment results.
 
@@ -57,10 +57,6 @@ If you have annotation of the reference species, you could extract them using Ex
 
     perl GenerateVcf.pl input_maf output_vcf speciesList
     
-## Convert MAF into MSMC format
-This function is under writing.
-## Convert MAF into PLINK format
-This function is under writing.
 ## Calculate Convergent Sites
 Today your should modify the subpoplution in scripts and do
 
@@ -74,6 +70,11 @@ Generally Type:
         perl GenerateCountTree.pl input_maf OurgroupName output_tree
 
 The output_tree contains x rows (x is the blocks of input MAF file). 
+
+## Convert MAF into MSMC format
+This function is under writing.
+## Convert MAF into PLINK format
+This function is under writing.
 
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published now.
