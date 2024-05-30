@@ -71,5 +71,5 @@ This function is under writing.
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published now.
 
-## Contruct
+## Contract
 You could write your problems in github issue page, or you could e-mail me at kogoorimasaki@outlook.com
