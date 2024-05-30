@@ -18,7 +18,9 @@ ComTools is a pipeline that focued on analysis about comparative genomics. In th
 
 ## Denpendencies
 
-Perl, version > 5.32.1
+Perl, version >= 5.32.1
+
+MafFilter, version = 1.3.1 (https://jydu.github.io/maffilter/)
 
 ##  Preparing Input Files
 
