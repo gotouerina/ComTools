@@ -7,7 +7,7 @@ ComTools is a pipeline that focues on analysis about comparative genomics. In th
 
 This pipeline is more tolerable than PHAST packages, since there are many format errors when running PHAST for results of cactus.
 
-##  Main Usage
+##  Main Aim
 
 1. Merging blocks, operating sequecing and filter.
 
@@ -18,6 +18,12 @@ This pipeline is more tolerable than PHAST packages, since there are many format
 4. Construct phylogenetic tree.
 
 5. Estimate convegent sites thourgh alignment results.
+
+## Install
+
+Just type 
+
+        git clone https://github.com/gotouerina/ComTools.git
 
 ## Denpendencies
 Environment: ***Linux, CentOS 6***
@@ -92,5 +98,5 @@ Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use 
 ## Affiliations
 State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems, College of Ecology, Lanzhou University, Lanzhou 730000, China.
 
-## Contract
-You could write your problems in github issue page, or you could e-mail me at kogoorimasaki@outlook.com (recommanded) or 220220932211@lzu.edu.cn.
+## Getting Help
+You could write your problems in github issue page, or you could e-mail me at kogoorimasaki@outlook.com (Recommanded).
