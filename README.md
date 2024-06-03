@@ -19,11 +19,6 @@ This pipeline is more tolerable than PHAST packages, since there are many format
 
 5. Estimate convegent sites thourgh alignment results.
 
-## Install
-
-Just type 
-
-        git clone https://github.com/gotouerina/ComTools.git
 
 ## Denpendencies
 Environment: ***Linux, CentOS 6***
@@ -33,6 +28,13 @@ Environment: ***Linux, CentOS 6***
 ***MafFilter, version = 1.3.1 (https://jydu.github.io/maffilter/)***
 
 Please make sure they are in $PATH of your computer
+
+## Install
+
+Just type 
+
+        git clone https://github.com/gotouerina/ComTools.git
+        
 
 ##  Preparing Input Files
 
@@ -99,4 +101,4 @@ Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use 
 State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems, College of Ecology, Lanzhou University, Lanzhou 730000, China.
 
 ## Getting Help
-You could write your problems in github issue page, or you could e-mail me at kogoorimasaki@outlook.com (Recommanded).
+You could write your problems in github issue page, or you could e-mail me at kogoorimasaki@outlook.com (**Recommanded**).
