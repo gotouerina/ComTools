@@ -3,7 +3,7 @@ use warnings;
 
 my $nametxt = shift;
 my $gff = shift;
-open I, "<$nametxt" or die "Usage: perl $0 nametxt gff3";
+open I, "<$nametxt" or die "Usage: perl $0 convert_txt gff3";
 
 my %data;
 while (<I>) 
