@@ -1,4 +1,4 @@
-# ComTools v0.1 （beta）
+# ComTools v0.2 （beta）
 ![License](https://img.shields.io/badge/license-MIT-yellow) ![Language](https://img.shields.io/badge/language-Perl-brightgreen)![Documentation](https://img.shields.io/badge/documentation-yes-blue)
 
 ## Background
