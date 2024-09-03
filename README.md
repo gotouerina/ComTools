@@ -99,7 +99,7 @@ Scripts that will help in analysis were included in "utils" folder.
 
 split_lst.pl was prepared to split "lst" format file into each chr.
 
-convert.pl was prepared to convert name in one gff3 according to a "nametxt".
+convert.pl was prepared to convert name in one gff3 according to a "convert.txt", the format of it can be seen in example folder.
 
 
 ## Cite
