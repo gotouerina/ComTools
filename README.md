@@ -94,6 +94,14 @@ This function is under development.
 ## Convert MAF into PLINK format
 This function is under development.
 
+## Scripts
+Scripts that will help in analysis were included in "utils" folder. 
+
+split_lst.pl was prepared to split "lst" format file into each chr.
+
+convert.pl was prepared to convert name in one gff3 according to a "nametxt".
+
+
 ## Cite
 Cite: Please cite website (https://github.com/gotouerina/ComTools) when you use this pipeline, there is no paper published now.
 
