@@ -6,7 +6,7 @@ my $lst = shift;
 #open I, "<$lst" or die "Usage: perl $0 lst fasta";
 
 my $i = 2;
-for ($i=2; $i<=@species; $i++)
+for ($i=2; $i<=(@species+1); $i++)
 {
         my $d = 1;
         open I, "<$lst" or die "Usage: perl $0 lst fasta";
