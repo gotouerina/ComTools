@@ -1,3 +1,9 @@
+###################convert.pl###############
+##--------------------------------------####
+########make by Kogoori Masaki##############
+##--------------------------------------####
+####Usage: perl $0 convert_txt gff3#########
+##Example of convert_txt see example folder#
 use strict;
 use warnings;
 
